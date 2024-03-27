@@ -4,5 +4,8 @@
   "private": true,
   "workspaces": [
     "client"
-  ]
+  ],
+  "scripts": {
+    "client-start": "yarn workspace client start"
+  }
 }
