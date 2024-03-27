@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "lint": "tsc --noEmit",
     "dev": "tsx watch ./src/index.ts"
   },
   "license": "MIT",
