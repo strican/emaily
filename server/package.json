@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "tsc --noEmit",
-    "dev": "tsx watch ./src/index.ts"
+    "dev": "tsx watch ./src/index.ts",
+    "start": "node build/index.js"
   },
   "license": "MIT",
   "dependencies": {
